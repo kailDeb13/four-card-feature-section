@@ -1,0 +1,156 @@
+body {
+background-color: hsl(0, 0%, 98%);
+margin: 0;
+padding: 0;
+color: hsl(229, 6%, 66%);
+font-family: 'Poppins', sans-serif;
+Font-size: 15px;
+}
+h1 {
+font-weight: 200;
+font-size: 2rem;
+margin-bottom: 0.1rem;
+color: hsl(234, 12%, 34%);
+}
+
+h2 {
+font-weight: 600;
+color: hsl(234, 12%, 34%);
+font-size: 1.8rem;
+margin-top: 0;
+margin-bottom: 0.5rem;
+}
+h3 {
+color: hsl(234, 12%, 34%);
+font-size: 1.2rem;
+margin-bottom: 0;
+}
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: auto;
+width: 100%;
+}
+.box1 {
+background-color: white;
+height: fit-content;
+max-width: 280px;
+padding: 1rem 1rem 1rem 2rem;
+border-top: solid 3px hsl(180, 62%, 55%);
+box-shadow: -1px -1px 5px hsl(229, 6%, 66%);
+border-radius: 4px;
+}
+.box2 {
+    background-color: white;
+    height: fit-content;
+    margin-bottom: 8px; 
+    max-width: 280px;
+padding: 1rem 1rem 1rem 2rem;
+border-top: solid 3px hsl(0, 78%, 62%);
+box-shadow: -1px -1px 5px hsl(229, 6%, 66%);
+border-radius: 4px;
+}
+.box3
+{
+    background-color: white;
+    height: fit-content;
+    margin-top: 10px; 
+    max-width: 280px;
+padding: 1rem 1rem 1rem 2rem;
+border-top: solid 3px hsl(34, 97%, 64%);
+box-shadow: -1px -1px 5px hsl(229, 6%, 66%);
+border-radius: 4px;
+}
+.box4 {
+    background-color: white;
+    height: fit-content;
+    max-width: 280px;
+padding: 1rem 1rem 1rem 2rem;
+border-top: 3px solid hsl(212, 86%, 64%);
+box-shadow: -1px -1px 5px hsl(229, 6%, 66%);
+border-radius: 4px;
+}
+.boxs {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 4rem;
+}
+.c {
+display: flex;
+flex-direction: column;
+margin: 0 20px;
+}
+.top {
+text-align: center;
+margin-bottom: auto;
+margin-top: 0.8rem;
+display: flex;
+flex-direction: column;
+width: 95%;
+max-width: 580px;
+margin-bottom: 15px;
+}
+
+div {
+text-align: right;
+}
+img {
+margin-left: auto;
+width: 50px;
+}
+* {
+overflow-x:unset;
+}
+.top p {
+margin-top: 0;
+}
+@media (max-width: 500px) {
+.box1, .box2, .box3, .box4 {
+min-height: 350px;
+min-width: 80px;
+max-width: 80px;
+}
+}
+
+@media (max-width: 400px) {
+.boxs {
+flex-direction: column;
+}
+.box1,  .box2, .box3, .box4 {
+margin: 10px auto;
+min-height: 150px;
+max-height: fit-content;
+min-width: 65%;
+max-width: 65;
+}
+.boxs {
+width: 100%;
+}
+main {
+margin: 0 auto;
+}
+* {
+overflow-x: hidden;
+}
+div {
+margin-right: 22px;
+}
+.c {
+width: 100%;
+}
+img {
+width: 45px;
+}
+}
+@media (max-width: 200px) {
+.box1, .box2, .box3, .box4 {
+padding: 0.5rem 0.5rem 0.5rem 1rem;
+text-align: center;
+}
+}
+
+
+
